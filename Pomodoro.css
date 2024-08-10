@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -52,6 +52,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
 .container .time-options button.active{
     background: #7d59c1;
 }
@@ -124,3 +125,30 @@ body{
     display: none;
 }
 
+/* Style du bouton de basculement de mode */
+.container .mode-toggle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .mode-toggle-button {
+    all: unset;
+    height: 40px;
+    width: 200px;
+    background: #664efe;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container .mode-toggle-button:hover {
+    background-color: #7d59c1;
+}
